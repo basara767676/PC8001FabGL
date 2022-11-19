@@ -7,15 +7,15 @@ It emulates not only the main unit but also peripheral devices such as disk unit
 
 ### Emulated hardware
 
-| Hardware   | Description                                                  |
-| ---------- | ------------------------------------------------------------ |
-| PC-8001    | Main unit                                                    |
-| PC-8001-11 | Expansion unit with 32KB RAM                                 |
-| PC-8001-12 | Expansion Unit with 128KB RAM                                |
-| PC-80S31   | Dual mini disk units (for supporting d88 file)               |
-| PC-80S32   | Dual mini disk units for expansion (for supporting d88 file) |
-| DR320      | Data recoder (for supporting cmt file)                       |
-| PCG-8100   | Programmable character generator unit for PC-8001            |
+| Hardware | Description                                                  |
+| -------- | ------------------------------------------------------------ |
+| PC-8001  | Main unit                                                    |
+| PC-8011  | Expansion unit with 32KB RAM                                 |
+| PC-8012  | Expansion Unit with 128KB RAM                                |
+| PC-80S31 | Dual mini disk units (for supporting d88 file)               |
+| PC-80S32 | Dual mini disk units for expansion (for supporting d88 file) |
+| DR320    | Data recoder (for supporting cmt file)                       |
+| PCG-8100 | Programmable character generator unit for PC-8001            |
 
 ## Requirements
 
@@ -104,7 +104,7 @@ Specify the board information from the `Tools` menu.
 
 ### Upload the PC8001FabGL
 
-Complete the sketch of PC8001FabGL and upload it into your ESP32.
+Compile the sketch of PC8001FabGL and upload it into your ESP32.
 
 ## Operation
 
