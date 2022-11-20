@@ -412,7 +412,7 @@ keyTable_t PC80KeyBoard::scanCodeTable[512] = {
     {NO___EFFECT, 0, 0, ""},            // 168
     {NO___EFFECT, 0, 0, "END"},         // 169 END
     {NO___EFFECT, 0, 0, ""},            // 16A
-    {SPECIAL_KEY, 0x08, 0x04, "LEFT"},  // 16B LEFT
+    {WINDOWS_KEY, 0x08, 0x04, "LEFT"},  // 16B LEFT
     {NORMAL__KEY, 0x08, 0x01, "HOME"},  // 16C HOME
     {NO___EFFECT, 0, 0, ""},            // 16D
     {NO___EFFECT, 0, 0, ""},            // 16E
@@ -420,10 +420,10 @@ keyTable_t PC80KeyBoard::scanCodeTable[512] = {
 
     {CTL_ALT_KEY, 0, 0, "INSERT"},        // 170 INSERT
     {CTL_ALT_KEY, 0x08, 0x08, "DELETE"},  // 171 DELETE
-    {SPECIAL_KEY, 0x08, 0x02, "DOWN"},    // 172 DOWN
+    {WINDOWS_KEY, 0x08, 0x02, "DOWN"},    // 172 DOWN
     {NO___EFFECT, 0, 0, ""},              // 173
-    {SPECIAL_KEY, 0x08, 0x04, "RIGHT"},   // 174 RIGHT
-    {SPECIAL_KEY, 0x08, 0x02, "UP"},      // 175 UP
+    {WINDOWS_KEY, 0x08, 0x04, "RIGHT"},   // 174 RIGHT
+    {WINDOWS_KEY, 0x08, 0x02, "UP"},      // 175 UP
     {NO___EFFECT, 0, 0, ""},              // 176
     {NO___EFFECT, 0, 0, ""},              // 177
     {NO___EFFECT, 0, 0, ""},              // 178
