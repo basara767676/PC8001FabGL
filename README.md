@@ -36,12 +36,12 @@ It emulates not only the main unit but also peripheral devices such as disk unit
 
 ### ROM images
 
-| File name   | Requirement | File size     |
-| ----------- | ----------- | ------------- |
-| PC-8001.ROM | Required    | 24,576 bytes  |
-| FONT.ROM    | Required    | 2,048 bytes   |
-| DISK.ROM    | Optional    | 2,048 bytes   |
-| USER.ROM    | Optional    | 8,192 bytes   |
+| File name    | Requirement | File size     |
+| ------------ | ----------- | ------------- |
+| PC-8001.ROM  | Required    | 24,576 bytes  |
+| PC-8001.FON  | Required    | 2,048 bytes   |
+| PC-80S31.ROM | Optional    | 2,048 bytes   |
+| USER.ROM     | Optional    | 8,192 bytes   |
 
 ## How to make micro SD card image
 
@@ -52,8 +52,8 @@ put ROM images and create some folders as shown:
 /
 +-- pc8001/
     +-- PC-8001.ROM
-    +-- FONT.ROM
-    +-- DISK.ROM (optional)
+    +-- PC-8001.FON
+    +-- PC-80S31.ROM (optional)
     +-- USER.ROM (optional)
     +-- disk/
         +--- *.d88
